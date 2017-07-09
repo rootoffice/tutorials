@@ -28,6 +28,10 @@ alpha@AlphaCat:~/joke$ git status
 	新文件：   me.md
 ```
 
+* `git stash`藏匿操作需要修改的跟踪文件和阶段的变化
+  > 藏匿的变化列表通过使用 git stash list命令，
+  执行git stash pop 命令，它会从堆栈中删除的变化，并把它放在当前工作目录
+
 * `git status`命令用于查看项目的当前状态
 
 ```git

@@ -37,6 +37,7 @@ alpha@AlphaCat:~$ cat ./.gitconfig
 
 ### Git远程仓库
 要添加一个新的远程仓库可以将Github为例作为远程仓库，由于你的本地Git仓库和GitHub仓库之间的传输是通过SSH加密的，所以我们需要配置验证信息
+
 ```git
 # 生成SSH Key
 alpha@AlphaCat:~$ ssh-keygen -t rsa -C "rootoffice@sina.com"
@@ -59,4 +60,4 @@ Hi sinaemail! You've successfully authenticated, but GitHub does not provide she
 ### 版本库
 工作区有一个隐藏目录`.git`，这个不算工作区，而是Git的版本库，Git管理的是修改
 
-Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD
+Git的版本库里存了很多东西，其中最重要的就是称为`stage`（或者叫`index`）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫`HEAD`
